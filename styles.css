@@ -55,3 +55,7 @@ nav ul ul li ul {
 body {
   background-color:#1a1a1a;
 }
+nav {
+  margin-left: auto;
+  margin-right: auto;
+}
