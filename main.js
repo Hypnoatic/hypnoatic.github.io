@@ -9,7 +9,7 @@ $(document).ready(function(){
   });
 	var d = new Date();
 	var paragraph = document.createElement('p');
-	document.getElementById('date').appendChild('Posted on :' + d.getDate() + ' ' + (d.getMonth() + 1) + ' ' + d.getFullYear() + 'at ' + d.getHours() + ':' + d.getMinutes());
+	document.getElementById('date').appendChild('Posted on :' + d.getDate() + ' ' + (d.getMonth() + 1) + ' ' + d.getFullYear() + 'at ' + d.getHours() + ':' + d.getMinutes()');
 
 
 });
