@@ -10,7 +10,7 @@ $(document).ready(function (){
 	text += ":"
 	text += d.getMinutes()
 	text += " "
-	text += checkAM(checkHour(d.getHours()))
+	text += checkAM(d.getHours())
 	$('p#date').text(text);
 
 	function checkHour(hour) {
