@@ -11,7 +11,7 @@ $(document).ready(function (){
 	text += d.getMinutes()
 	text += " "
 	text += checkAM(d.getHours())
-	$('p#date').text(text);
+	$('p.date').text(text);
 
 	function checkHour(hour) {
 		if (hour - 12 <= 0 ) return hour;

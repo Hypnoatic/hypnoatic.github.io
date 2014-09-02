@@ -135,3 +135,9 @@ article {
 	background:#d4d4d4;
 	padding-top: 20px;
 }
+.date {
+	margin-top:5px;
+	margin-right:5px;
+	color:black;
+	font-size: 140%;
+}
