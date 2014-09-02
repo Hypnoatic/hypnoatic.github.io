@@ -1,5 +1,6 @@
 var name = "#footer";
 var menuYloc = null;
+var $ = 
  
 $(document).ready(function(){
   menuYloc = parseInt($(name).css("top").substring(0,$(name).css("top").indexOf("px")))
