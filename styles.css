@@ -1,3 +1,33 @@
+* {
+	margin:0px;
+	color:f2f2f2;
+}
+
+html, body {
+	padding:0px;
+	margin:0px;
+	height:100%;
+}
+.wrapper {
+	width:100%;
+	height:100%;
+	background:#0d0d0d;
+}
+.header {
+	margin-top: 15px;
+	height:90px;
+
+}
+.test {
+	border: 1px solid red;
+ 	left:100px;
+	top:150px;
+}
+nav {
+	text-align:center;
+	width:435px;
+	margin:auto;
+}
 nav ul ul {
 	display: none;
 }
@@ -6,19 +36,22 @@ nav ul li:hover > ul {
 	display: block;
 }
 nav ul {
-	background: #efefef; 
+	text-align:center;
+	background: #1a1a1a; 
 	padding: 0 20px;
 	border-radius: 10px;  
 	list-style: none;
 	position: relative;
 }
 nav ul:after {
-	content: ""; clear: both; display: block;
+	content: ""; 
+	clear: both; 
+	display: block;
 }
 nav ul li {
 	float: left;
 }
-nav ul li:hover {
+nav ul li:hover { 
   background: #4b545f;
 }
 nav ul li:hover a {
@@ -26,12 +59,17 @@ nav ul li:hover a {
 }
 	
 nav ul li a {
-  display: block; padding: 25px 40px;
-  color: #757575; text-decoration: none;
+  display: block; 
+	padding: 25px 40px;
+  color: #757575; 
+	text-decoration: none;
 }
 nav ul ul {
-	background: #5f6975; border-radius: 0px; padding: 0;
-	position: absolute; top: 100%;
+	background: #5f6975;
+	border-radius: 0px; 
+	padding: 0;
+	position: absolute; 
+	top: 100%;
 }
 nav ul ul li {
   float: none; 
@@ -44,30 +82,56 @@ nav ul ul li a {
   color: #fff;
 }	
 nav ul ul li a:hover {
-  background: #4b545f;
+  background: #1a1a1a;
 }
 nav ul ul ul {
-	position: absolute; left: 100%; top:0;
+	position: absolute;
+	left: 100%;
+	top:0;
 }
 nav ul ul li ul {
-  width:145px;
+  width:140px;
 }
-body {
-  background-color:#1a1a1a;
+nav li:hover {
+	background: #1a1a1a;
 }
-nav {
-  text-align:center;
+.footer-wrapper{
+	position: fixed;
+	bottom:0;
+	width:99%;
+	padding-left:27.5%;
+	height: 100px:
 }
-body {
-  height:100%;
-  margin-bottom:50px;
+.footerImage {
+	width:40px;
+	height:40px;
+	margin-top:10px;
+	float: right;
+	display:block;
+	margin-right:10px;
+	border-radius:10px;
 }
 .footer {
-  position: fixed;
-  height:50px;
-  background-color: red;
-  bottom:0px;
-  left:0px;
-  right:0px;
-  margin-bottom:0px;
+	background:#0d0d0d;
+	width: 6%;
+	height:60px;
+	border-radius: 10px;
+	margin-left: 67.4%;
+	margin-right:40px;
+}
+#github {
+	margin-left:10px;
+}
+nav > ul  > li  > a{
+	cursor:default;
+}
+article {
+	width:65%;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.post {
+	background:#d4d4d4;
+	padding-top: 20px;
 }

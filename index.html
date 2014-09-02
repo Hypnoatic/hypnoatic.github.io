@@ -1,45 +1,59 @@
 <html>
-  <head>
-    <title>
-      First Webpage
-    </title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
-  <body>
-   <div class="header">
-     <nav>
-	<ul class="parent">
-		<li><a href="#">Test 1</a></li>
-		<li><a href="#">Test 2</a>
-			<ul>
-				<li><a href="#">Sub 2-1</a></li>
-				<li><a href="#">Sub 2-2</a></li>
-				<li><a href="#">Sub 2-3</a>
-					<ul>
-						<li><a href="#">Sub2-3-1</a></li>
-						<li><a href="#">Sub2-3-2</a></li>
-					</ul>
-				</li>
-			</ul>
-		</li>
-		<li><a href="#">Test 3</a>
-			<ul>
-				<li><a href="#">Sub 3-2</a></li>
-				<li><a href="#">Sub 3-2</a></li>
-			</ul>
-		</li>
-		<li><a href="#">Test 4</a></li>
-	</ul>
-     </nav>
-   </div>
-   <div class="body">
-   </div>
-   <div class="footer">
-     <div class="wrapper">
-       <p>
-       	Test
-       </p>
-     </div>
-   </div>
-  </body>
+	<head>
+		<title>MY First WebPage!</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script type="text/javascript" src="main.js"></script>
+		<script language="javascript" src="jquery.js"></script>
+		<script language="javascript" src="jquery.dimensions.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<nav>
+				<ul class="parent">
+					<li><a href="#">Test 1</a></li>
+					<li><a href="#">Test 2</a>
+						<ul>
+							<li><a href="#">Sub 2-1</a></li>
+							<li><a href="#">Sub 2-2</a></li>
+							<li><a href="#">Sub 2-3</a>
+								<ul>
+									<li><a href="#">Sub2-3-1</a></li>
+									<li><a href="#">Sub2-3-2</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a target="_blank" href="#">About Me</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="wrapper">
+			<article>
+				<div class="content">
+					<div class="post">
+						<h1>Test
+						</h1>
+						<p id="test"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam erat diam, accumsan sed tortor in, congue sodales lorem. 
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam erat diam, accumsan sed tortor in, congue sodales lorem. 
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam erat diam, accumsan sed tortor in, congue sodales lorem. 
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam erat diam, accumsan sed tortor in, congue sodales lorem. 
+						</p>
+						<p<time pubdate datetime="2014-8-27 14:12:01-5:00"></time>
+						</p>
+					</div>
+				</div>
+			</article>
+		</div>
+		<div class="footer-wrapper">
+			<div class="footer">
+				<a target="_blank" href="https://twitter.com/Hypnoatic">
+					<img class="footerImage" src="twitter.png"></img>
+				</a>
+				<a target="_blank" href="https://github.com/Hypnoatic">
+					<img id="github" class="footerImage" src="github.png"></img>
+				</a>
+			</div>
+		</div>
+	</body>
 </html>
