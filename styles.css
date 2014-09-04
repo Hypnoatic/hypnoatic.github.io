@@ -134,6 +134,8 @@ article {
 .post {
 	background:#d4d4d4;
 	padding-top: 20px;
+	border-radius: 25px;
+	height:350px;
 }
 .date {
 	margin-top:5px;
