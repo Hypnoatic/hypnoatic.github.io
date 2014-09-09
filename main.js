@@ -13,7 +13,7 @@ $(document).ready(function (){
 	text += checkAM(d.getHours())
 	$('p.date').text(text);
 	var height = $('.post p').height();
-	$('.post').css("height", height + 150);
+	$('.post').css("height", height + 90);
 
 	function checkHour(hour) {
 		if (hour - 12 <= 0 ) return hour;
